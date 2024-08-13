@@ -2,21 +2,20 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
+  title: "前端杂货店",
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: 'shader', link: '/shader/common' }
     ],
-
     sidebar: [
       {
-        text: 'Examples',
+        text: 'shader',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '常用的shader', link: '/shader/common' },
+          { text: '矩阵的基础知识', link: '/shader/matrix' }
         ]
       }
     ],
