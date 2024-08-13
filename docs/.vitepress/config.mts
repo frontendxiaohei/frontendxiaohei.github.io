@@ -15,7 +15,8 @@ export default defineConfig({
         text: 'shader',
         items: [
           { text: '常用的shader', link: '/shader/common' },
-          { text: '矩阵的基础知识', link: '/shader/matrix' }
+          { text: '矩阵的基础知识', link: '/shader/matrix' },
+          { text: '常用的glsl函数', link: '/shader/common-func' },
         ]
       }
     ],
