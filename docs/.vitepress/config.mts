@@ -8,7 +8,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: 'shader', link: '/shader/common' }
+      { text: 'shader', link: '/shader/common' },
+      { text: 'typescript', link: '/ts/type-challenges' }
     ],
     sidebar: [
       {
@@ -17,6 +18,12 @@ export default defineConfig({
           { text: '常用的shader', link: '/shader/common' },
           { text: '矩阵的基础知识', link: '/shader/matrix' },
           { text: '常用的glsl函数', link: '/shader/common-func' },
+        ]
+      },
+      {
+        text: "typescript",
+        items: [
+          { text: "类型体操练习",link: "ts/type-challenges" }
         ]
       }
     ],
