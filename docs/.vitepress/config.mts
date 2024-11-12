@@ -24,7 +24,8 @@ export default defineConfig({
       {
         text: "typescript",
         items: [
-          { text: "类型体操练习",link: "ts/type-challenges" }
+          { text: "类型体操练习",link: "ts/type-challenges" },
+          { text: "tsconfig文件",link: "ts/tsconfig" },
         ]
       },
       {
