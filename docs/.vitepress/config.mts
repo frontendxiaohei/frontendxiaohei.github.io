@@ -9,7 +9,8 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: 'shader', link: '/shader/common' },
-      { text: 'typescript', link: '/ts/type-challenges' }
+      { text: 'typescript', link: '/ts/type-challenges' },
+      { text: 'rust', link: '/rust/ds' },
     ],
     sidebar: [
       {
@@ -24,6 +25,12 @@ export default defineConfig({
         text: "typescript",
         items: [
           { text: "类型体操练习",link: "ts/type-challenges" }
+        ]
+      },
+      {
+        text: "rust",
+        items: [
+          { text: "数组和map",link: "rust/ds" }
         ]
       }
     ],

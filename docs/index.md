@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "陈某人的笔记"
-  text: "人生只有一次，请珍惜"
-  tagline: "Just do it!"
+  name: "学习记录"
+  text: "不积硅步，无以至千里,不积小流，无以成江海"
+  tagline: "driver"
   actions:
     - theme: brand
       text: 常用shader
