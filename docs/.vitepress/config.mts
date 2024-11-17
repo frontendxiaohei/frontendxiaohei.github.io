@@ -29,6 +29,13 @@ export default defineConfig({
         ]
       },
       {
+        text: "vue",
+        items: [
+          { text: "数据劫持",link: "vue/reactivity" },
+          { text: "tsconfig文件",link: "ts/tsconfig" },
+        ]
+      },
+      {
         text: "rust",
         items: [
           { text: "语言基础",link: "rust/lang-basic" },
