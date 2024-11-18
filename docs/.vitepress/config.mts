@@ -7,12 +7,19 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '首页', link: '/' },
+      { text: '编译原理', link: '/compiler/1-basic-1'},
       { text: 'shader', link: '/shader/common' },
+      
       { text: 'typescript', link: '/ts/type-challenges' },
       { text: 'rust', link: '/rust/ds' },
     ],
     sidebar: [
+      {
+        text: '编译原理',
+        items: [
+          { text: '词法分析', link: '1-basic-1' },
+        ]
+      },
       {
         text: 'shader',
         items: [
