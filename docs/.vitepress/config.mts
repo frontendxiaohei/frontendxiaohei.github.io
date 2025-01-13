@@ -47,6 +47,7 @@ export default defineConfig({
         items: [
           { text: "语言基础",link: "rust/lang-basic" },
           { text: "数组和map",link: "rust/ds" },
+          { text: 'FromFromStr trait', link: 'rust/basic-trait'}
         ]
       }
     ],
